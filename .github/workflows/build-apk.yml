@@ -38,4 +38,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: apk-fayl
-          path: bin/*.apk
+          path: bin/*.apkandroid.accept_sdk_license = True
