@@ -35,7 +35,7 @@ jobs:
           buildozer android debug
 
       - name: APK faylni yuklash
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: apk-fayl
           path: bin/*.apk
